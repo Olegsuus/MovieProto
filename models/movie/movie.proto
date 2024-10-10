@@ -23,11 +23,11 @@ message AddRequest{
   Movie movie = 1;
 }
 
-message GetResponse{
+message GetRequest{
   string id = 1;
 }
 
-message GetRequest{
+message GetResponse{
   Movie movie = 1;
 }
 
