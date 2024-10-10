@@ -53,6 +53,8 @@ message GetManyRequest{
   bool sort_by_title = 2;
   bool sort_by_rating = 3;
   bool is_ascending = 4;
+  int64 page = 5;
+  int64 limit = 6;
 }
 
 message GetManyResponse{
